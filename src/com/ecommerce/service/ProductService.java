@@ -105,6 +105,6 @@ public interface ProductService {
     Optional<Product> getProductById(int id);
 
     //Get top 3 most expensive products in each category
-    Map<String, List<Product>> getTopThreeExpensiveProductsByCatrgory();
+    Map<String, List<Product>> getTopThreeExpensiveProductsByCategory();
 
 }
